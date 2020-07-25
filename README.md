@@ -6,6 +6,15 @@ The experimental design of A/B test will be explored along with two types of exp
 1. Randomized Design
 2. Matched-Pair Design
 
+## Outline
+
+This repositories contain experiments which were designed to gain a better understanding of A/B testing and analyzing results. This repository additional contains notebooks which explore early stopping, power analysis, experiment duration. 
+
+Tools used 
+1. Alteryx
+2. Python
+3. Jupyter Notebooks
+
 ## When to use A/B Testing?
 A/B Testing can be used to solve business problems when you don't have enough data to use modeling techniques.
 
