@@ -31,7 +31,40 @@ In A/B test, we design experiments.
 **6. Control Variables** - The data we have about the units are called control variables. They are the variables which are most influential wrt target variables. In our case, the additional information which we can have about the store are customer demographics, location and sales are our control variables. *Different than predictor variable as they are used to ensure that the treatment and control units are as similar to each other as possible.* This is important as we want to measure the impact of the product launch independent of other factors.
 
 
-## Techniques to identify Control Variables
+## 5 steps to identify Control Variables
+1. List potential variables 
+
+Business Scenairo - Number of products offered, Total volume of category sold, size & location of store, customer demographics, number of customers, number of competitve products.
+
+2. Is variable data available - Do you have data for these variables?
+
+Business Scenairo - Number of products offered, Total volume of category sold, size & location of store, customer demographics
+
+3. Ensure that there exists logical connection between control & target variables
+
+Business Scenairo - Location & demographics are likely measuring the same thing and hence can be eliminate one of two
+
+4. Test correlation between control & target variables
+
+Business Scenairo - Test correlation using Alteryx - association aanlysis, plot of means were used to determine that number of products offered and state is correlated with target variable.
+
+5. Test correlation between control variables to avoid similar variables
+
+Business Scenairo - No such variables were found. 
+
+## Experiment Duration
+This depends on the objective of the data. A general rule is to run the experiment for a full cycle of data. It means to run the experiment for a duration that will allow you to gather data which is representative of the population. 
+
+If this is not followed then there is a higher chance of bias in the responses. However, full cycle length can't be determined accurately, thus it is upto us to baalnce business constraints and accuracy.
+
+## Experimental Design
+
+### Randomized Design 
+This design involves sampling the control and treatment group completely randomly.
+
+##### When to use?
+It is used in situation where it is very difficult to control variables. The volume & velocity of the data is high enough that we are not worried about bias.
+
 
 
 
