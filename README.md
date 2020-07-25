@@ -9,7 +9,7 @@ The experimental design of A/B test will be explored along with two types of exp
 ## When to use A/B Testing?
 A/B Testing can be used to solve business problems when you don't have enough data to use modeling techniques.
 
-### Business Scenario
+#### Business Scenario - New Product Introduction
 
 Consider that you are working as a product manager of a toy manufacturing company. A new product is ready for distribution but the company is unsure of its success. 
 
@@ -26,7 +26,12 @@ In A/B test, we design experiments.
 
 **4. Target Variable** - The variable for which we are trying to predict the outcome for. In our case, the target variable is the sales.
 
-**5. Experimental Variables** - It is also known as the treatment/independent variables. This is the variable we change to see how it impacts the target variable.
+**5. Experimental Variables** - It is also known as the treatment/independent variables. This is the variable we change to see how it impacts the target variable. In our case, the experimental variable is the sale of the new toy.
 
-**6. Control Variables** - 
+**6. Control Variables** - The data we have about the units are called control variables. They are the variables which are most influential wrt target variables. In our case, the additional information which we can have about the store are customer demographics, location and sales are our control variables. *Different than predictor variable as they are used to ensure that the treatment and control units are as similar to each other as possible.* This is important as we want to measure the impact of the product launch independent of other factors.
+
+
+## Techniques to identify Control Variables
+
+
 
