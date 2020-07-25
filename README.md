@@ -63,7 +63,37 @@ If this is not followed then there is a higher chance of bias in the responses. 
 This design involves sampling the control and treatment group completely randomly.
 
 ##### When to use?
-It is used in situation where it is very difficult to control variables. The volume & velocity of the data is high enough that we are not worried about bias.
+It is used in situation where it is very difficult to control variables. The volume & velocity of the data is high enough that we are not worried about bias. Thus, it is used when:
+
+1. High Volume of Observations
+
+2. Low concern for Bias
+
+3. Low cost per observations
+
+Example - Website based & telephone based experiments as they have little control over who visits/calls.
+
+### Matched-Pair
+This design involves sampling the control and treatment group completely randomly.
+
+##### When to use?
+It is used in situation where there is low traffic. Running this test can be very expensive so we should try to reduce the number of treatment units to a minimum. A matched pair experiment can yield significant results even with a low number of treatment units. Thus, it is used when:
+
+1. Low Volume of Observations
+
+2. High concern for Bias
+
+3. High cost per observations
+
+Example - Website based & telephone based experiments the treatment & control units are matched on a unit-to-unit basis using a wieghting of identifying control variables. This eliminates sources of bias & increase confidence.
+
+##### How to setup Matched Pair?
+1. Must be set up ahead of time
+
+2. All units must be known before the start of the experiments.
+
+
+
 
 
 
