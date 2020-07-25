@@ -12,7 +12,7 @@ This repositories contain experiments which were designed to gain a better under
 
 Tools used 
 1. Alteryx
-2. Python
+2. Python, Pandas, Numpy, Matplotlib, StatsModels, Scipy
 3. Jupyter Notebooks
 
 ## When to use A/B Testing?
