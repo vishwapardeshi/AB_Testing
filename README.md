@@ -9,7 +9,9 @@ The experimental design of A/B test will be explored along with two types of exp
 ## When to use A/B Testing?
 A/B Testing can be used to solve business problems when you don't have enough data to use modeling techniques.
 
-For example, consider that you are wokring as a product manager of a toy manufacturing company. A new product is ready for distribution but the company is unsure of its success. In this scenario, A/B testing can be used to predict the effect on sales if the new toy is introduced. This will help the management determine if it should go into full distribution. A/B test is a natural choice as we have first a binary situation and second no past information to build models. 
+**Business Scenario:** Consider that you are working as a product manager of a toy manufacturing company. A new product is ready for distribution but the company is unsure of its success. 
+
+In this scenario, A/B testing can be used to predict the effect on sales if the new toy is introduced. This will help the management determine if it should go into full distribution. A/B test is a natural choice as we have first a binary situation and second no past information to build models. 
 
 ## Terminologies
 In A/B test, we design experiments. 
